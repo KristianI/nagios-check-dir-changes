@@ -1,12 +1,12 @@
 # Nagios Check Directory Changes plugin
 
-Check directory for file changes or new files by Kristian Just.
+Check directory recursively for file changes or new files by Kristian Just.
 
-Based on 'File size growth checking plugin for Nagios' by Aaron Segura (aaron.segura@gmail.com).
+Based on *File size growth checking plugin for Nagios* by Aaron Segura (aaron.segura@gmail.com).
 
 ## Usage
 
-```check_dir_changes.php -i <cfgfile> [-t <tmpdir>] -w <warning> -c <critical>```
+```check_dir_changes.php -i <cfgfile> [-t <tmpdir>] [-l <logfile>] -w <warning> -c <critical>```
 
         -i     Path to configuration file containing directories to check 
                (see configuration.php.example)
