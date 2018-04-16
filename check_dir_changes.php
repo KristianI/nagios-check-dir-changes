@@ -253,7 +253,7 @@ class CheckDirectoryChanges
     public function writeState()
     {
         // Only update state file every 15. minute.
-        if (filemtime($this->statefile) > time()-900) {
+        if (file_exists($this->statefile) && filemtime($this->statefile) > time()-900) {
             return;
         }
 
