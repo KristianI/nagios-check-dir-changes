@@ -1,0 +1,13 @@
+<?php
+
+return [
+    'directories' => [
+        '/path/to/scan/recursively/1',
+        '/path/to/scan/recursively/2',
+        '/path/to/scan/recursively/3',
+    ],
+    'excludes' => [
+        '/path/to/scan/recursively/1/ignored/sub/dir/1',
+        '/path/to/scan/recursively/1/ignored/sub/dir/2',
+    ],
+];
