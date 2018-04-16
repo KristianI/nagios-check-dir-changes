@@ -135,8 +135,6 @@ class CheckDirectoryChanges
         if ( ! isset($this->tmpdir) ) {
             $this->tmpdir = '/tmp';
         }
-
-        $this->readState();
     }
 
     /**
