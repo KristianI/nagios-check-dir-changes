@@ -6,9 +6,9 @@ Based on 'File size growth checking plugin for Nagios' by Aaron Segura (aaron.se
 
 ## Usage
 
-`check_dir_changes.php -i <cfgfile> [-t <tmpdir>] -w <warning> -c <critical>`
+```check_dir_changes.php -i <cfgfile> [-t <tmpdir>] -w <warning> -c <critical>```
 
-	-i     Path to configuration file containing directories to check 
+        -i     Path to configuration file containing directories to check 
                (see configuration.php.example)
         -w     Number of files changed warning threshold
         -c     Number of files changed critical threshold
