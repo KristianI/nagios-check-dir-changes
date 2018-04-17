@@ -153,6 +153,10 @@ class CheckDirectoryChanges
 
             foreach ($iterator as $path) {
 
+                if (is_link($path)) {
+                    continue;
+                }
+
                 if (in_array($path->getFilename(), ['..'])) {
                     continue;
                 }
